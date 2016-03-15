@@ -283,3 +283,6 @@ _Pvt_Extensions
 
 #Mongodb
 MongoDb/
+
+#lib folder
+lib

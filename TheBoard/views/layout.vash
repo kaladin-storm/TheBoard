@@ -7,6 +7,8 @@
 
 	<link href="/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="/lib/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet" />
+	@html.block("head")
+	<link rel="stylesheet" type="text/css" href="/css/notes.css"/>
 	<link rel="stylesheet" type="text/css" href="/css/site.css"/>
 </head>
 <body>
@@ -46,5 +48,9 @@
 	<script src="/lib/underscore/underscore-min.js"></script>
     <script src="/lib/jquery/dist/jquery.min.js"></script>
     <script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="/lib/angular/angular.min.js"></script>
+    <script src="/lib/angular-bootstrap/ui-bootstrap.min.js"></script>
+	@html.block("scripts")
 </body>
 </html>

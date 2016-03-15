@@ -1,0 +1,26 @@
+{
+  "name": "bower",
+  "description": "A message board based on sticky notes using node",
+  "main": "server.js",
+  "directory": "public/lib",
+  "authors": [
+    "[object Object]"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/kaladin-storm/TheBoard",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "underscore": "^1.8.3",
+    "angular-bootstrap": "^1.2.4"
+  }
+}
