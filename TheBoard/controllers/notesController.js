@@ -28,7 +28,7 @@
             
             var noteToInsert = {
                 note: "",
-                color: "",
+                color: "yellow",
                 author: "Kaladin"
             };
 
