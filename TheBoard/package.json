@@ -1,0 +1,23 @@
+{
+  "name": "TheBoard",
+  "version": "0.1.0",
+  "description": "A message board based on sticky notes using node",
+  "main": "server.js",
+  "author": {
+    "name": "Kaladin",
+    "email": ""
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "mongodb": "^2.1.8",
+    "underscore": "^1.8.3",
+    "vash": "^0.11.1"
+  },
+  "devDependencies": {
+    "bower": "^1.7.7"
+  }
+}
