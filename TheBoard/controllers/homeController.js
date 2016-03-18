@@ -12,6 +12,7 @@
                     error: err, 
                     categories: results,
                     //newCatError: req.flash('newCatName')
+                    user: req.user
                 });
             });
 
@@ -21,7 +22,7 @@
         app.get("/notes/:categoryName", function (req, res) {
             var categoryName = req.params.categoryName;
 
-            res.render("notes", { title: categoryName });
+            res.render("notes", { title: categoryName, user: req.user });
         });
 
         app.post("/newCategory", function (req, res) {

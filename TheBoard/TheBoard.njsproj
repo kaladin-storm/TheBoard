@@ -30,6 +30,8 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="auth\hasher.js" />
+    <Compile Include="auth\index.js" />
     <Compile Include="controllers\homeController.js" />
     <Compile Include="controllers\index.js" />
     <Compile Include="controllers\notesController.js" />
@@ -39,6 +41,7 @@
     <Compile Include="public\js\notesView.js" />
     <Compile Include="server.js" />
     <Compile Include="gruntfile.js" />
+    <Compile Include="updater\index.js" />
     <Content Include=".bowerrc" />
     <Content Include="bower.json" />
     <Content Include="package.json" />
@@ -51,12 +54,16 @@
     <Content Include="README.md" />
     <Content Include="views\index.vash" />
     <Content Include="views\layout.vash" />
+    <Content Include="views\login.vash" />
     <Content Include="views\notes.vash" />
+    <Content Include="views\register.vash" />
     <Content Include="views\test.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="controllers\" />
     <Folder Include="dataService\" />
+    <Folder Include="auth\" />
+    <Folder Include="updater\" />
     <Folder Include="public\" />
     <Folder Include="public\css\" />
     <Folder Include="public\images\" />

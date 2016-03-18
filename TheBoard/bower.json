@@ -21,6 +21,7 @@
   "dependencies": {
     "bootstrap": "^3.3.6",
     "underscore": "^1.8.3",
-    "angular-bootstrap": "^1.2.4"
+    "angular-bootstrap": "^1.2.4",
+    "socket.io-client": "^1.4.5"
   }
 }
